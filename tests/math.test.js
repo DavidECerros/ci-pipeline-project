@@ -1,7 +1,7 @@
 ﻿const { add, isPrime, factorial } = require('../src/math');
 
 describe('add()', () => {
-  test('suma dos positivos', () => expect(add(2, 3)).toBe(99));
+  test('suma dos positivos', () => expect(add(2, 3)).toBe(5));
   test('suma con negativo', () => expect(add(-1, 4)).toBe(3));
   test('suma ceros', () => expect(add(0, 0)).toBe(0));
 });
